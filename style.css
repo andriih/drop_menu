@@ -1,0 +1,33 @@
+ul li{
+	width: 100px;
+	list-style: none;
+	border-bottom:2px solid black;
+	margin: 0px;
+	text-align: center;
+	background-color: #333; 
+	display: block;
+	
+}
+a{
+	text-decoration: none;
+	 color: white;
+}
+#ul5,#ul1{
+	display:none;
+}
+#ul1,#ul2,#ul3,#ul4,#ul5 {
+	display:none;
+}
+
+
+#it1:hover > ul, 
+#it2:hover > ul,
+#it3:hover > ul,
+#it4:hover > ul,
+#it5:hover > ul{
+	display: block;
+		position: absolute;
+    	left: 100px;
+    	
+    
+}
